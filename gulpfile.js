@@ -1,3 +1,5 @@
+// Require Gulp, Sass, and browser-sync
+
 const gulp        = require('gulp');
 const browserSync = require('browser-sync').create();
 const sass        = require('gulp-sass');
@@ -24,7 +26,7 @@ gulp.task('js', function() {
 gulp.task('serve', ['sass'], function() {
 
     browserSync.init({
-        server: "./src"
+        server: "./src",
         port: 8082     // Change port as needed, 8082 is for Cloud 9 workspaces
     });
 
@@ -48,4 +50,4 @@ gulp.task('fa', function() {
 
 // Gulp default tasks
 
-gulp.task('default', ['js','serve', 'fa', 'fonts']);
+gulp.task('default', ['sass', 'js','serve', 'fa', 'fonts']);
