@@ -1,2 +1,5 @@
 html {
   scroll-behavior: smooth-scroll; }
+
+body {
+  background: pink; }
