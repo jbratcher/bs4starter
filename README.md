@@ -4,7 +4,10 @@ Includes complete Bootstrap 4.0.0-beta.3 dev environment with gulp and sass
 
 ### Version
 
-1.0.2 (Updated for Beta version 3)
+1.0.3 
+
+Bootstrap 4.0.0 release
+Font Awesome 4.7
 
 ## Install Dependencies
 
